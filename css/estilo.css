@@ -1,0 +1,502 @@
+body{
+	
+}
+.parallax {
+    /* The image used */
+    background-image: url("../img/22851-NUEG8N.png");
+	background-size: 83%;
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#container{
+	margin-left: 10%;
+	margin-right: 10%;
+	background:white;
+	-webkit-box-shadow: 0px 2px 90px 22px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 90px 22px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 90px 22px rgba(0,0,0,0.75);
+}
+#menu{
+	z-index: 10000;
+}
+#banner{
+	width: 100%;
+	height:auto;
+	margin-bottom: -25px;
+}
+header{
+	width: 100%;
+}
+header nav{
+	
+	width: 100%;
+	max-width: 1000%;
+	margin: 20px auto;
+	background: #f70c5b;
+}
+.menu_bar{
+	display: none;
+}
+#sli{
+	margin-top: -59px;
+}
+header nav ul{
+	margin-left: 20%;
+	overflow: hidden;
+	list-style: none;
+	
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a {
+	color: #fff;
+	padding:20px;
+	display: block;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+header nav ul li a:hover{
+	background: #ff676b;
+}
+
+section{
+	padding: 20px;
+}
+
+/*ventana modal css*------------------------------------------------------------------*/
+#mask {
+  position:absolute;
+  z-index:900;
+  background-color:#000;
+  display:none;
+}
+ 
+#boxes .window {
+  position:absolute;
+  width:440px;
+  height:200px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+ 
+ 
+#boxes #dialog {
+  width:375px;
+  height:203px;
+}
+#est{
+	width: 100%;
+	display: none;
+}
+#sill{
+	width: 20%;
+	display: none;
+}
+/*ventana modal css*-----------------------------------------------------------------*/
+.menu-fixed{
+	margin-left: 15%;
+	position: fixed;
+    z-index: 1000;
+    top: -19px;
+    width: 46%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+    height: 70px;
+}
+.mostfixed{
+	margin-left: 14%;
+    overflow: hidden;
+    list-style: none;
+}
+.prod{
+	margin-top: -6%;
+	width: 100%;
+	height: 50px;
+	background: #ff9800;
+	text-align: center;
+}
+.prod2{
+	width: 100%;
+	height: 50px;
+	background: #ff9800;
+	text-align: center;
+	margin-bottom: -16px;
+}
+.prod h2{
+	padding-top: 1%;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+h3 h4{
+	font-family: 'Open Sans', sans-serif;
+}
+.dprod{
+	height: 864px;
+	
+}
+.dprod div{
+	width: 33%;
+	float: left;
+}
+.t1{
+	font-family: 'Roboto',sans-serif;
+}
+
+#img1{	
+	background: url(../img/productos/04_min.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+
+#img2{
+	background: url(../img/productos/04_min2.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img3{
+	background: url(../img/productos/01_min.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img4{
+	background: url(../img/productos/02_minarc.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img5{
+	background: url(../img/productos/04_minmensas.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img6{
+	background: url(../img/productos/11_min.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img7{
+	background: url(../img/productos/04_minestanterias.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img8{
+	background: url(../img/productos/03_min.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img9{
+	background: url(../img/productos/01_mincloset.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img10{
+	background: url(../img/productos/03_mincocinas.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img11{
+	background: url(../img/productos/09_min.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+#img12{
+	background: url(../img/productos/07_min.png);
+	width: 50%;	
+	height: 150px;
+	background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: 30%;
+}
+.imgprod{
+	width: 54%;
+}
+#img1:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img2:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img3:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img4:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img5:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img6:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img7:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img8:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img9:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img10:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img11:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#img12:hover{
+	width: 58%;
+	transition: all 1s;
+}
+#footer{
+	background: #18252b;
+	height: 250px;
+	width: 100%;
+}
+#col1{
+	padding-top: 3px;
+    width: 35%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 10%;
+    color: #FFF;
+    font-family: sans-serif;
+}
+#col2{
+	padding-top: 3px;
+	padding-left: 55%;
+    padding-right: 10%;
+    color: #FFF;
+    font-family: sans-serif;
+}
+#creditos{
+	background:#000;
+	color: #3b4c54;
+	font-family: sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+#creditos a{
+	text-decoration: none;
+	color: #3b4c54;
+}
+
+@media screen and (max-width: 800px){
+	
+	#banner{
+	margin-bottom: -3px;
+	}
+#container{
+	margin-left: 0;
+	margin-right: 0;
+}
+	header nav{
+		width: 70%;
+		height: 100%;
+		left: -100%;
+		margin: 0;
+		position: fixed;
+	}
+	header nav ul li{
+		display: block;
+		float: none;
+		border-bottom: 1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar{
+		display: block;
+		width: 100%;
+		background: #F44336;
+	}
+	.menu_bar .bt-menu{
+		display: block;
+		padding: 20px;
+		background: #F44336;
+		color: #FFF;
+		text-decoration: none;
+		
+		font-size: 25px;
+		font-family: 'Roboto', sans-serif;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing: border-box;
+	}
+	.menu_bar span{
+		float: right;
+		font-size: 35px;
+	}
+	#sli{
+	margin-top: -37px;
+	}
+	.main {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+	}
+	.prod{
+    margin-top: -53px
+	}
+
+}
+
+@media screen and (max-width: 909px){
+header nav ul li a {
+    color: #fff;
+    padding: 11px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-fixed{
+    margin-left: 4%;
+    position: fixed;
+    z-index: 1000;
+    top: -19px;
+    width: 70%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+    height: 70px;
+}
+}
+@media screen and (min-width: 989px){
+header nav ul li a {
+    color: #fff;
+    padding: 11px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-fixed{
+    margin-left: 10%;
+    position: fixed;
+    z-index: 1000;
+    top: -19px;
+    width: 56%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+    height: 70px;
+}
+
+
+}
+@media screen and (min-width: 910px){
+header nav ul li a {
+    color: #fff;
+    padding: 11px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-fixed{
+   margin-left: 8%;
+    position: fixed;
+    z-index: 1000;
+    top: -19px;
+    width: 62%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+    height: 70px;
+}
+
+
+}
+@media screen and (max-width: 939px){
+	
+	.t1{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 1000px){
+	
+	.mostfixed {
+    margin-left: 0%;
+}
+@media screen and (max-width: 880px){
+	header nav ul {
+    margin-left: 6%;
+	}
+	.h4{
+		font-size: 14px;
+	}
+	
+	
+}
+@media screen and (max-width: 502px){
+	.t1{
+		display: none;
+	}
+	.dprod {
+    height: 430px;
+	}
+	.dprod div {
+    margin-bottom: -30px;
+	}
+	.imgprod{
+		width: 20%;
+	}
+	.ict{
+		width: 20px;
+	}
+}
